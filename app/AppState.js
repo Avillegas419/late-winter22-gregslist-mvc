@@ -29,7 +29,7 @@ class AppState extends EventEmitter {
   // NOTE just adds intellisense to our house array that lets our code know its an array of house, not other things 
   /** @type {import('./Models/Car').Car[]} */
   /** @type {import('./Models/House').House[]}*/
-  cars = [testCar]
+  cars = [testCar, testHouse]
   house = [testHouse]
 }
 
